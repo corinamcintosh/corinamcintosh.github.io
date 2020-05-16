@@ -16,4 +16,9 @@ export default {
 </script>
 
 <style>
+html, body {
+}
+#app {
+  margin-top: 35%;
+}
 </style>
