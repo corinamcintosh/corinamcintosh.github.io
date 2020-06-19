@@ -1,32 +1,40 @@
 <template>
-  <div id="app" class="d-flex flex-column">
-    <Home msg="Coming soon..."/>
-  </div>
+  <v-app>
+    <v-content>
+      <Home msg="Coming soon..." />
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Home from './components/Home';
 
 export default {
   name: 'App',
+
   components: {
-    Home
-  }
-}
+    Home,
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
-
-
 
 <style>
 body {
   text-align: center!important;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff!important;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  height: 100%;
+  background-color: #333!important;
 }
 #app {
-  max-width: 42em;
-  margin-left: auto!important;
-  margin-right: auto!important;
-  padding: 1rem!important;
-  height: 100%!important;
-  background-color: black;
+  background-color: transparent!important;
 }
 </style>
