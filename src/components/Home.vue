@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   props: {
     msg: String
   }
@@ -14,7 +14,4 @@ export default {
 </script>
 
 <style>
-.hello {
-  padding: 0px 1.5rem;
-}
 </style>

@@ -1,31 +1,32 @@
 <template>
-  <div id="app">
-    <HelloWorld msg="Coming soon..."/>
+  <div id="app" class="d-flex flex-column">
+    <Home msg="Coming soon..."/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   }
 }
 </script>
 
+
+
 <style>
-html, body {
-  background-color: #333;
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  color: white;
-}
-h1 {
-  background-color: #333;
+body {
+  text-align: center!important;
 }
 #app {
-  margin-top: 35%;
-  height: 100%;
+  max-width: 42em;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  padding: 1rem!important;
+  height: 100%!important;
+  background-color: black;
 }
 </style>
