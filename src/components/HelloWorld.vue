@@ -14,4 +14,7 @@ export default {
 </script>
 
 <style>
+.hello {
+  padding: 0px 1.5rem;
+}
 </style>
